@@ -1,0 +1,25 @@
+#main {
+        display: flex;
+        justify-content: auto;
+        align-items: auto;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .rightside{
+        position:absolute;
+        right: -200px;
+        bottom: -400px;
+      }
+
+  .lightoff {
+    background: black;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: background-color 2s ease-out;
+  }
+  
+  .lighton {
+    background-color: white;
+    transition: background-color 2s ease-out;
+  }
+  
